@@ -48,5 +48,15 @@
         "valor": 1350000000,
         "estado": "disponible",
         "unidad": "personas"
+    },
+    {
+        "anio": 2000,
+        "pais": "Japon",
+        "codigo_iso3": "JAP",
+        "indicador_id": "SP.POP.TOTL",
+        "descripcion": "Total de población",
+        "valor": 1500000,
+        "estado": "disponible",
+        "unidad": "personas"
     }
 ]

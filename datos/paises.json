@@ -23,5 +23,10 @@
         "nombre": "Indonesia",
         "codigo_iso": "ID",
         "codigo_iso3": "IDN"
+    },
+    {
+        "nombre": "JAPON",
+        "codigo_iso": "JP",
+        "codigo_iso3": "JAP"
     }
 ]
