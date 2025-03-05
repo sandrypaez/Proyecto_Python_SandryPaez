@@ -1,6 +1,6 @@
 [
     {
-        "ano": 2000,
+        "anio": 2000,
         "pais": "India",
         "codigo_iso3": "IND",
         "indicador_id": "SP.POP.TOTL",
@@ -10,7 +10,7 @@
         "unidad": "personas"
     },
     {
-        "ano": 2010,
+        "anio": 2010,
         "pais": "India",
         "codigo_iso3": "IND",
         "indicador_id": "SP.POP.TOTL",
@@ -20,7 +20,7 @@
         "unidad": "personas"
     },
     {
-        "ano": 2020,
+        "anio": 2020,
         "pais": "India",
         "codigo_iso3": "IND",
         "indicador_id": "SP.POP.TOTL",
@@ -30,22 +30,22 @@
         "unidad": "personas"
     },
     {
-        "ano": 2022,
+        "anio": 2022,
+        "pais": "India",
+        "codigo_iso3": "IND",
+        "indicador_id": "SP.POP.TOTL",
+        "descripcion": "Total de población",
+        "valor": 1370000000,
+        "estado": "disponible",
+        "unidad": "personas"
+    },
+    {
+        "anio": 2023,
         "pais": "India",
         "codigo_iso3": "IND",
         "indicador_id": "SP.POP.TOTL",
         "descripcion": "Total de población",
         "valor": 1350000000,
-        "estado": "disponible",
-        "unidad": "personas"
-    },
-    {
-        "ano": 2023,
-        "pais": "India",
-        "codigo_iso3": "IND",
-        "indicador_id": "SP.POP.TOTL",
-        "descripcion": "Total de población",
-        "valor": 1380000000,
         "estado": "disponible",
         "unidad": "personas"
     }
