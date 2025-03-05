@@ -1,20 +1,22 @@
-class GestionDatos:
-    def __init__(self, poblacion, paises, indicadores):
-        self.poblacion = poblacion
-        self.paises = paises
-        self.indicadores = indicadores
+import json
 
-    def obtener_datos_poblacion(self, pais, anio_inicio, anio_fin):
-        return [
-            dato for dato in self.poblacion
-            if dato['pais'] == pais and anio_inicio <= dato['ano'] <= anio_fin
-        ]
+class GestionDatos:
+    def __init__(self, indicadores, paises, poblacion):
+        self.indicadores = indicadores
+        self.paises = paises
+        self.poblacion = poblacion
+
+    def mostrar_info(self):
+        print("Clase GestionDatos cargada correctamente.")
 
     def listar_paises(self):
-        return self.paises
+        return [pais["nombre"] for pais in self.paises]
 
-    def obtener_poblacion_por_anio(self, pais, anio):
-        for dato in self.poblacion:
-            if dato['pais'] == pais and dato['ano'] == anio:
-                return dato['valor']
-        return None
+    def agregar_dato_poblacion(self, nuevo_dato):
+        self.poblacion.append(nuevo_dato)
+
+    def guardar_datos(self, nombre_archivo, datos):
+        with open(nombre_archivo, 'w', encoding='utf-8') as f:
+            json.dump(datos, f, indent=4, ensure_ascii=False)
+
+print("Módulo gestion_datos importado correctamente.")  
